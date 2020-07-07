@@ -1,3 +1,35 @@
 h1 {
-  color: blue
+  font-size: 40px;
+  margin: 10px;
 }
+
+body{
+  background: bisque;
+  margin: 10px;
+  
+}
+
+article {
+  margin: 10px;
+}
+
+#education1 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#workexp {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#jobs {
+  font-size: 20px;
+  text-align: left;
+  border-bottom: inset;
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  font-size: smaller;
