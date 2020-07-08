@@ -59,4 +59,47 @@ if (codingAnswer.toLowerCase() === 'yes'){
 } else {
   alert('You are somewhat incorrect!')
 }
+
+for (var i = 0; i < 4; i = i + 1){
+  var numberGuessed = prompt('Guess a number between 1 and 10?')
+    if (numberGuessed === '2'){
+      alert('How\'d you know, wizard??');
+      break;
+  } else if (numberGuessed === '1') {
+      alert('You are so close, just 1 off!');
+  } else if (numberGuessed >= '3'){
+      alert('Sorry, but thats too high.');
+  } else if(numberGuessed !== '2' && i === 3){
+      alert('The correct answer was 2, nice try!')
+  }
+}
+
+for (var i = 0; i < 6; i = i + 1){
+  var guessingGame = prompt('Try and guess my middle name');
+  if(guessingGame ===guessingArray[0]){
+    alert('Woa you must be a gene!')
+  }
+
+  guessingArray[0] === 'Logan';
+  guessingArray[0];
+
+  guessingArray[1] === 'Liam';
+  guessingArray[1];
+
+  guessingArray[2] === 'Lewis';
+  guessingArray[2];
+
+  guessingArray[3] === 'Lebron';
+  guessingArray[3];
+
+  guessingArray[4] === 'Lance';
+  guessingArray[4];
+
+  guessingArray[5] === 'Larson';
+  guessingArray[5];
+
+
+
 alert('Thank you ' + userName + ' for answering my questions! I appreciate your time!')
+
+forceTest();
