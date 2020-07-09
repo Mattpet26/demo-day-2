@@ -109,21 +109,25 @@ for (var i = 0; i < 4; i = i + 1){
 asknumberquestion();
 // console.log(numberGuessed)
 
-// var guessingArray = ['red', 'blue', 'green'];
+function askarray(){
 
-// for (var i = 0; i < 6; i++){
-// var guessingGame = prompt('Try guessing one of my desktops colors!');
+var guessingArray = ['red', 'blue', 'green'];
 
-//   if(guessingGame === guessingArray[0] || guessingGame === guessingArray[2] || guessingGame === guessingArray[1]){
-//     alert('Woa you must be a gene!')
-//     break;
-//   } else if(guessingGame !== guessingArray[0] || guessingGame !== guessingArray[2] || guessingGame !== guessingArray[1]) {
-//     alert('Sorry that was incorrect, try a different color.')
-//   } if(guessingGame !== guessingArray[0] && i === 5){
-//     alert('The correct answers were red, blue or green!')
+for (var i = 0; i < 6; i++){
+var guessingGame = prompt('Try guessing one of my desktops colors!');
+
+  if(guessingGame === guessingArray[0] || guessingGame === guessingArray[2] || guessingGame === guessingArray[1]){
+    alert('Woa you must be a gene!');
+    break;
+  } else if(guessingGame !== guessingArray[0] || guessingGame !== guessingArray[2] || guessingGame !== guessingArray[1]) {
+    alert('Sorry that was incorrect, try a different color.');
+  } if(guessingGame !== guessingArray[0] && i === 5){
+    alert('The correct answers were red, blue or green!');
     
-//   }
-// }
+  }
+}
+}
+askarray();
 // console.log(guessingGame)
 
 // var count = 0
