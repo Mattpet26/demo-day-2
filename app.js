@@ -61,6 +61,7 @@ if (instrumentAnswer.toLowerCase() === 'yes'){
 }
 askinstrumentquestion();
 // console.log(instrumentAnswer)
+function askseattlequestion(){
 
 var seattleAnswer = prompt('Am I from Seattle?');
 
@@ -70,16 +71,20 @@ if (seattleAnswer.toLowerCase() === 'yes'){
    alert('I\'m from Wisconsin!');
   
 }
+}
+askseattlequestion();
 // console.log(seattleAnswer)
+function askcodingquestion(){
 
-// var codingAnswer = prompt('Does Matthew enjoy coding?')
+var codingAnswer = prompt('Does Matthew enjoy coding?')
 
-// if (codingAnswer.toLowerCase() === 'yes'){
-//   alert('You are somewhat correct!')
-// } else {
-//   alert('You are somewhat incorrect!')
-  
-// }
+if (codingAnswer.toLowerCase() === 'yes'){
+  alert('You are somewhat correct!');
+} else {
+  alert('You are somewhat incorrect!');
+} 
+}
+askcodingquestion();
 // console.log(codingAnswer)
 
 // for (var i = 0; i < 4; i = i + 1){
