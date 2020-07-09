@@ -87,22 +87,26 @@ if (codingAnswer.toLowerCase() === 'yes'){
 askcodingquestion();
 // console.log(codingAnswer)
 
-// for (var i = 0; i < 4; i = i + 1){
-//   var numberGuessed = prompt('Guess a number between 1 and 10?')
-//     if (numberGuessed === '2'){
-//       alert('How\'d you know, wizard??');
-//       break;
-//   } else if (numberGuessed === '1') {
-//       alert('You are so close, just 1 off!');
-//   } else if (numberGuessed === '3'){
-//       alert('Just a little too high.');
-//   } else if (numberGuessed > '4'){
-//       alert('Try a much smaller number!.');
-//   } if(numberGuessed !== '2' && i === 3){
-//       alert('The correct answer was 2, nice try!')
+function asknumberquestion(){
+
+for (var i = 0; i < 4; i = i + 1){
+  var numberGuessed = prompt('Guess a number between 1 and 10?')
+    if (numberGuessed === '2'){
+      alert('How\'d you know, wizard??');
+      break;
+  } else if (numberGuessed === '1') {
+      alert('You are so close, just 1 off!');
+  } else if (numberGuessed === '3'){
+      alert('Just a little too high.');
+  } else if (numberGuessed > '4'){
+      alert('Try a much smaller number!.');
+  } if(numberGuessed !== '2' && i === 3){
+      alert('The correct answer was 2, nice try!')
       
-//   }
-// }
+  }
+}
+}
+asknumberquestion();
 // console.log(numberGuessed)
 
 // var guessingArray = ['red', 'blue', 'green'];
