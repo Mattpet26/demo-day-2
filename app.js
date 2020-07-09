@@ -7,7 +7,7 @@ if (userName === 'Matthew'){
   alert( userName + ', welcome to my website! I hope you enjoy it!')
 
 }
-console.log(userName)
+//console.log(userName)
 
 var humanAnswer = prompt('Is Matthew human?');
 
@@ -17,7 +17,7 @@ if (humanAnswer.toLowerCase() === 'yes'){
   alert('Beep Boop Beep, how did you know?');
   
 } 
-console.log(humanAnswer)
+//console.log(humanAnswer)
 
 var fishAnswer = prompt('How many fish do I have?');
 
@@ -38,7 +38,7 @@ default:
   alert('Not even close!');
   
 }
-console.log(fishAnswer)
+//console.log(fishAnswer)
 
 var instrumentAnswer = prompt('Can I play any instruments?');
 
@@ -48,7 +48,7 @@ if (instrumentAnswer.toLowerCase() === 'yes'){
   alert('I can play one or two, not well though!');
   
 }
-console.log(instrumentAnswer)
+//console.log(instrumentAnswer)
 
 var seattleAnswer = prompt('Am I from Seattle?');
 
@@ -58,7 +58,7 @@ if (seattleAnswer.toLowerCase() === 'yes'){
    alert('I\'m from Wisconsin!');
   
 }
-console.log(seattleAnswer)
+//console.log(seattleAnswer)
 
 var codingAnswer = prompt('Does Matthew enjoy coding?')
 
@@ -68,7 +68,7 @@ if (codingAnswer.toLowerCase() === 'yes'){
   alert('You are somewhat incorrect!')
   
 }
-console.log(codingAnswer)
+//console.log(codingAnswer)
 
 for (var i = 0; i < 4; i = i + 1){
   var numberGuessed = prompt('Guess a number between 1 and 10?')
@@ -86,7 +86,7 @@ for (var i = 0; i < 4; i = i + 1){
       
   }
 }
-console.log(numberGuessed)
+//console.log(numberGuessed)
 
 var guessingArray = ['red', 'blue', 'green'];
 
@@ -103,8 +103,9 @@ var guessingGame = prompt('Try guessing one of my desktops colors!');
     
   }
 }
-console.log(guessingGame)
+//console.log(guessingGame)
 
+function askAbout(){
 var count = 0
 if (humanAnswer.toLowerCase() === 'yes'){
   count++;
@@ -119,7 +120,24 @@ if (humanAnswer.toLowerCase() === 'yes'){
 } if (seattleAnswer.toLowerCase() === 'no'){
   count++;
 }
+}
 
 var correctAnswers = alert('You got ' + count + ' questions correct! Way to go!')
 
+askAbout();
+
 alert('Thank you ' + userName + ' for answering my questions! I appreciate your time!')
+
+/* function saying hello to someone
+
+var username = 'Matthew';
+
+function sayHello(name){
+  console.log('Hello there' + name);
+}
+
+sayHello(username);
+sayHello();
+sayHello();
+*/
+
