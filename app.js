@@ -6,11 +6,11 @@ if (userName === 'Matthew'){
   alert('Welcome home master')
 } else {
   alert( userName + ', welcome to my website! I hope you enjoy it!')
-
+  console.log(userName)
 }
 }
 asknamequestion();
-// console.log(userName)
+
 
 function askhumanquestion(){
 var humanAnswer = prompt('Is Matthew human?');
@@ -18,11 +18,9 @@ if (humanAnswer.toLowerCase() === 'yes'){
   alert('Correct!');
 } if (humanAnswer.toLowerCase() === 'no'){
   alert('Beep Boop Beep, how did you know?');
-  
+  console.log(humanAnswer)
 } 
 }
-askhumanquestion();
-// console.log(humanAnswer)
 
 function askfishquestion(){
 
@@ -128,7 +126,7 @@ var guessingGame = prompt('Try guessing one of my desktops colors!');
 }
 }
 askarray();
-// console.log(guessingGame)
+console.log(guessingGame)
 
 // var count = 0
 // if (humanAnswer.toLowerCase() === 'yes'){
@@ -144,7 +142,8 @@ askarray();
 // } if (seattleAnswer.toLowerCase() === 'no'){
 //   count++;
 // }
+// var correctAnswers = alert('You got ' + count + ' questions correct! Way to go!');
 
-// var correctAnswers = alert('You got ' + count + ' questions correct! Way to go!')
+alert('Thank you ' + userName + ' for answering my questions! I appreciate your time!');
 
-// alert('Thank you ' + userName + ' for answering my questions! I appreciate your time!')
+askhumanquestion();
