@@ -1,5 +1,6 @@
 'use strict';
 
+function askUserName(){
 var userName = prompt ('Please enter your name so we know who we are talking with.')
 if (userName === 'Matthew'){
   alert('Welcome home master')
@@ -7,8 +8,11 @@ if (userName === 'Matthew'){
   alert( userName + ', welcome to my website! I hope you enjoy it!')
 
 }
+}
+askUserName();
 console.log(userName)
 
+function askHumanAnswer(){
 var humanAnswer = prompt('Is Matthew human?');
 
 if (humanAnswer.toLowerCase() === 'yes'){
@@ -17,6 +21,8 @@ if (humanAnswer.toLowerCase() === 'yes'){
   alert('Beep Boop Beep, how did you know?');
   
 } 
+}
+askHumanAnswer();
 console.log(humanAnswer)
 
 var fishAnswer = prompt('How many fish do I have?');
