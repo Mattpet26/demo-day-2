@@ -89,16 +89,8 @@ for (var i = 0; i < 4; i = i + 1){
 console.log(numberGuessed)
 
 var guessingArray = ['red', 'blue', 'green'];
-guessingArray[0] === 'red';
-guessingArray[0];
 
-guessingArray[1] === 'blue';
-guessingArray[1];
-
-guessingArray[2] === 'green';
-guessingArray[2];
-
-for (var i = 0; i < 6; i = i + 1){
+for (var i = 0; i < 6; i++){
 var guessingGame = prompt('Try guessing one of my desktops colors!');
 
   if(guessingGame === guessingArray[0] || guessingGame === guessingArray[2] || guessingGame === guessingArray[1]){
