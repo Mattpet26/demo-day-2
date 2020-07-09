@@ -48,25 +48,28 @@ default:
 }
 askfishquestion();
 // console.log(fishAnswer)
+function askinstrumentquestion(){
 
-// var instrumentAnswer = prompt('Can I play any instruments?');
+var instrumentAnswer = prompt('Can I play any instruments?');
 
-// if (instrumentAnswer.toLowerCase() === 'yes'){
-//   alert('I can play the piano!');
-// } else {
-//   alert('I can play one or two, not well though!');
+if (instrumentAnswer.toLowerCase() === 'yes'){
+  alert('I can play the piano!');
+} else {
+  alert('I can play one or two, not well though!');
   
-// }
+}
+}
+askinstrumentquestion();
 // console.log(instrumentAnswer)
 
-// var seattleAnswer = prompt('Am I from Seattle?');
+var seattleAnswer = prompt('Am I from Seattle?');
 
-// if (seattleAnswer.toLowerCase() === 'yes'){
-//    alert('Nope! I\'m actually from a different state.');
-//  } else {
-//    alert('I\'m from Wisconsin!');
+if (seattleAnswer.toLowerCase() === 'yes'){
+   alert('Nope! I\'m actually from a different state.');
+ } else {
+   alert('I\'m from Wisconsin!');
   
-// }
+}
 // console.log(seattleAnswer)
 
 // var codingAnswer = prompt('Does Matthew enjoy coding?')
