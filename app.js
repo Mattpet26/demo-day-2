@@ -1,6 +1,7 @@
 'use strict';
 
 var score = 0;
+var userName
 
 function asknamequestion(){
 var userName = prompt ('Please enter your name so we know who we are talking with.')
